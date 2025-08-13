@@ -11,7 +11,7 @@ This project demonstrates a Node.js application using Kafka for event streaming 
 - Java JDK 17+
 
 ## Setup
-1. Clone the repo: `git clone https://github.com/yourusername/node-kafka-mysql-orders.git`
+1. Clone the repo: `git clone https://github.com/bilalzafar1/node-kafka-mysql-orders.git`
 2. Install dependencies: `npm install`
 3. Set up MySQL:
    - Create database `order_db` and table `orders`.
