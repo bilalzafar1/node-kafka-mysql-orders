@@ -14,7 +14,15 @@ This project demonstrates a Node.js application using Kafka for event streaming 
 1. Clone the repo: `git clone https://github.com/yourusername/node-kafka-mysql-orders.git`
 2. Install dependencies: `npm install`
 3. Set up MySQL:
-   - Create database `order_db` and table `orders` (see SQL in guide).
+   - Create database `order_db` and table `orders`.
+   - CREATE DATABASE order_db;
+        CREATE TABLE orders (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            user_id INT NOT NULL,
+            product_id INT NOT NULL,
+            quantity INT NOT NULL
+        );
+
 4. Start Kafka/ZooKeeper (see installation guide in this README or project docs).
 5. Update `src/db.js` with your MySQL credentials.
 
